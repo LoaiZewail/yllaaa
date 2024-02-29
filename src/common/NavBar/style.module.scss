@@ -1,0 +1,143 @@
+.NavBar {
+    height: 100px;
+    color: aliceblue;
+    position: sticky;
+    top: 5px;
+    height: 80px;
+    border-radius: 50px;
+    margin: 0px 5px;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 50px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(14.2px);
+    -webkit-backdrop-filter: blur(14.2px);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+
+    &__start {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    &__end {
+        &__items {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            @media (max-width:"700px") {
+                display: none;
+            }
+
+            &__item {
+                padding: 10px;
+                cursor: pointer;
+
+                &:hover {
+                    opacity: .8;
+                    transition: opacity linear 500ms;
+                }
+            }
+
+            &__btn {
+                border: 1px solid rgba(255, 255, 255, 0.28);
+                border-radius: 50px;
+                padding: 16px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.Menu {
+    pointer-events: none;
+    transition: opacity .2s;
+    z-index: 2;
+    display: none;
+
+    @media (max-width:"700px") {
+        display: block;
+    }
+
+    >* {
+        pointer-events: auto;
+    }
+
+    .btn {
+        z-index: 10;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        padding: 0 12px;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 1;
+        background: #fff;
+        border: none;
+        border-radius: 50%;
+        -webkit-appearance: none;
+        appearance: none;
+        will-change: transform;
+        gap: 8px;
+        cursor: pointer;
+        transition: all linear 500ms;
+    }
+
+    .btnActive {
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.28);
+    }
+}
+
+.MenuItems {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background-color: #2A0468;
+    border-radius: 40px;
+    height: calc(100vh - 11px);
+    overflow-y: hidden;
+    transform-origin: top;
+
+    &__body {
+        padding: 20px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 500;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+
+        .links {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0px;
+            font-size: 32px;
+
+            a {
+                padding-bottom: 15px;
+            }
+        }
+    }
+}
