@@ -11,7 +11,7 @@ export default function Form() {
                         Ready To Transform Your Digital Presence?
                     </div>
                     <div className={style.Form__container__start__desc}>
-                        Let's work together to achieve your digital goals.
+                        Lets work together to achieve your digital goals.
                     </div>
                 </div>
                 <div className={style.Form__container__end}>

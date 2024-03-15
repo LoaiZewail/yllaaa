@@ -11,24 +11,37 @@ export default function Carousel() {
     };
     return (
         <div className={style.Carousel}>
+            <div className={style.Carousel__title}>How We Work</div>
             <Slider {...settings}>
                 <div className={style.Carousel__card}>
-                    hi
+                    <div className={style.Carousel__card__content}>
+                        step
+                    </div>
                 </div>
                 <div className={style.Carousel__card}>
-                    hi
+                    <div className={style.Carousel__card__content}>
+                        step
+                    </div>
                 </div>
                 <div className={style.Carousel__card}>
-                    hi
+                    <div className={style.Carousel__card__content}>
+                        step
+                    </div>
                 </div>
                 <div className={style.Carousel__card}>
-                    hi
+                    <div className={style.Carousel__card__content}>
+                        step
+                    </div>
                 </div>
                 <div className={style.Carousel__card}>
-                    hi
+                    <div className={style.Carousel__card__content}>
+                        step
+                    </div>
                 </div>
                 <div className={style.Carousel__card}>
-                    hi
+                    <div className={style.Carousel__card__content}>
+                        step
+                    </div>
                 </div>
             </Slider>
         </div>

@@ -3,6 +3,7 @@ import Carousel from "./components/Carousel";
 import Experience from "./components/Experience";
 import Form from "./components/Form";
 import Header from "./components/Header";
+import People from "./components/People";
 import style from "./style.module.scss";
 
 export const Home = () => {
@@ -13,6 +14,7 @@ export const Home = () => {
             <Cards />
             <Experience />
             <Carousel />
+            <People />
             <Form />
         </div>
     )
