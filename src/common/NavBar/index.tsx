@@ -10,7 +10,7 @@ export default function NavBar() {
             </div>
             <div className={style.NavBar__end}>
                 <div className={style.NavBar__end__items}>
-                    <div className={style.NavBar__end__items__item}>
+                    {/* <div className={style.NavBar__end__items__item}>
                         Services
                     </div>
                     <div className={style.NavBar__end__items__item}>
@@ -24,12 +24,12 @@ export default function NavBar() {
                     </div>
                     <div className={style.NavBar__end__items__item}>
                         +34 623 134 921
-                    </div>
+                    </div> */}
                     <div className={style.NavBar__end__items__btn}>
                         Get Started
                     </div>
                 </div>
-                <Menu />
+                {/* <Menu /> */}
             </div>
         </motion.div>
     )
