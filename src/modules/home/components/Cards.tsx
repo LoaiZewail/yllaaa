@@ -20,22 +20,22 @@ export default function Header() {
             <div className={style.Cards__card}>
                 <span><img src='/images/Stars.png' /> </span>
                 <b>Proven Expertise.</b>
-                <p>Our team of seasoned digital marketing experts has a track record of driving results. We know how to navigate digital activities to ensure your brand's success.</p>
+                <p>Our team of seasoned digital marketing experts has a track record of driving results. We know how to navigate digital activities to ensure your brands success.</p>
             </div>
             <div className={style.Cards__card}>
                 <span><img src='/images/Stars.png' /> </span>
                 <b>Proven Expertise.</b>
-                <p>Our team of seasoned digital marketing experts has a track record of driving results. We know how to navigate digital activities to ensure your brand's success.</p>
+                <p>Our team of seasoned digital marketing experts has a track record of driving results. We know how to navigate digital activities to ensure your brands success.</p>
             </div>
             <div className={style.Cards__card}>
                 <span><img src='/images/Stars.png' /> </span>
                 <b>Proven Expertise.</b>
-                <p>Our team of seasoned digital marketing experts has a track record of driving results. We know how to navigate digital activities to ensure your brand's success.</p>
+                <p>Our team of seasoned digital marketing experts has a track record of driving results. We know how to navigate digital activities to ensure your brands success.</p>
             </div>
             <div className={style.Cards__card}>
                 <span><img src='/images/Stars.png' /> </span>
                 <b>Proven Expertise.</b>
-                <p>Our team of seasoned digital marketing experts has a track record of driving results. We know how to navigate digital activities to ensure your brand's success.</p>
+                <p>Our team of seasoned digital marketing experts has a track record of driving results. We know how to navigate digital activities to ensure your brands success.</p>
             </div>
             <motion.div style={{ top: y }} className={style.glow}></motion.div >
         </div>
